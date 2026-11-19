@@ -24,7 +24,7 @@ The skill is a folder. Put it where your agent loads skills.
 **Claude Code**
 
 ```bash
-git clone https://github.com/nowfalvaasits/meta-ads-launch ~/.claude/skills/meta-ads-launch
+git clone https://github.com/nowfalsalahudeen/meta-ads-launch ~/.claude/skills/meta-ads-launch
 ```
 
 (for one project only, clone it into `<project>/.claude/skills/meta-ads-launch`).
