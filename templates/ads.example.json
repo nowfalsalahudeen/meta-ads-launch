@@ -1,0 +1,53 @@
+{
+  "brand": {
+    "name": "Acme Invoices",
+    "parts": ["Acme", "Invoices"],
+    "logo": "assets/logo.svg",
+    "navy": "#0A192F",
+    "slate": "#1F4068",
+    "cyan": "#00B4D8",
+    "teal": "#2FD3B5",
+    "accent": "#FF6F61"
+  },
+  "browser_label": "app.acme.example",
+  "out": "out",
+  "shapes": ["feed", "square", "story", "link"],
+  "langs": {
+    "en": { "dir": "ltr", "badge": "FREE EARLY ACCESS", "cta": "Start free · acme.example" },
+    "es": { "dir": "ltr", "badge": "ACCESO ANTICIPADO GRATIS", "cta": "Empieza gratis · acme.example" }
+  },
+  "ads": [
+    {
+      "id": "launch",
+      "theme": "dark",
+      "headline": { "en": "Get *paid* faster", "es": "Cobra *más* rápido" },
+      "desktop": { "en": "raw/desktop_en/invoices.png", "es": "raw/desktop_es/invoices.png" },
+      "phone": { "en": "raw/phone_en/invoices.png", "es": "raw/phone_es/invoices.png" },
+      "cards": [
+        { "glyph": "✓", "title": { "en": "Invoice paid", "es": "Factura pagada" }, "line": { "en": "$1,200 · Client Co.", "es": "$1,200 · Cliente S.A." } },
+        { "glyph": "→", "color": "#25D366", "title": { "en": "Reminder sent", "es": "Recordatorio enviado" }, "line": { "en": "just now", "es": "ahora mismo" } }
+      ]
+    },
+    {
+      "id": "everything",
+      "theme": "light",
+      "headline": { "en": "Your whole *billing* in one place", "es": "Todo tu *cobro* en un lugar" },
+      "desktop": { "en": "raw/desktop_en/dashboard.png", "es": "raw/desktop_es/dashboard.png" },
+      "phone": { "en": "raw/phone_en/dashboard.png", "es": "raw/phone_es/dashboard.png" },
+      "features": [
+        { "en": "Invoices", "es": "Facturas" },
+        { "en": "Quotes", "es": "Presupuestos" },
+        { "en": "Reminders", "es": "Recordatorios" },
+        { "en": "Expenses", "es": "Gastos" },
+        { "en": "Reports", "es": "Informes" },
+        { "en": "Clients", "es": "Clientes" }
+      ]
+    }
+  ],
+  "page": {
+    "covers": {
+      "en": { "headline": "Create *Invoices.*\nGet *Paid.*\nStay Organized.", "sub": "Free early access · acme.example", "desktop": "raw/desktop_en/invoices.png", "phone": "raw/phone_en/invoices.png" },
+      "es": { "headline": "Crea *facturas.*\nCobra *rápido.*\nOrganízate.", "sub": "Acceso anticipado gratis · acme.example", "desktop": "raw/desktop_es/invoices.png", "phone": "raw/phone_es/invoices.png" }
+    }
+  }
+}

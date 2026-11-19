@@ -1,0 +1,43 @@
+{
+  "brand": { "name": "Acme Invoices", "parts": ["Acme", "Invoices"], "logo": "assets/logo.svg" },
+  "browser_label": "app.acme.example",
+  "out": "out",
+  "shapes": ["feed", "square", "story", "link"],
+  "langs": {
+    "en": { "dir": "ltr", "badge": "FREE EARLY ACCESS", "cta": "Start free · acme.example" },
+    "ar": { "dir": "rtl", "badge": "وصول مبكر مجاني", "cta": "ابدأ مجانًا · acme.example" }
+  },
+  "ads": [
+    {
+      "id": "launch",
+      "theme": "dark",
+      "headline": { "en": "Get *paid* on time, every time", "ar": "احصل على *أموالك* في وقتها" },
+      "desktop": { "en": "screens/desktop_en/dashboard.png", "ar": "screens/desktop_en/dashboard.png" },
+      "phone": { "en": "screens/phone_en/dashboard.png", "ar": "screens/phone_en/dashboard.png" },
+      "cards": [
+        { "glyph": "✓", "title": { "en": "Invoice paid", "ar": "تم دفع الفاتورة" }, "line": { "en": "$1,200 · Client Co.", "ar": "1,200$ · Client Co." } },
+        { "glyph": "→", "color": "#25D366", "title": { "en": "Reminder sent", "ar": "تم إرسال التذكير" }, "line": { "en": "just now", "ar": "الآن" } }
+      ]
+    },
+    {
+      "id": "everything",
+      "theme": "light",
+      "headline": { "en": "Your whole *billing* in one place", "ar": "كل *فواتيرك* في مكان واحد" },
+      "desktop": { "en": "screens/desktop_en/dashboard.png", "ar": "screens/desktop_en/dashboard.png" },
+      "phone": { "en": "screens/phone_en/dashboard.png", "ar": "screens/phone_en/dashboard.png" },
+      "features": [
+        { "en": "Invoices", "ar": "الفواتير" },
+        { "en": "Quotes", "ar": "عروض الأسعار" },
+        { "en": "Reminders", "ar": "التذكيرات" },
+        { "en": "Expenses", "ar": "المصروفات" },
+        { "en": "Reports", "ar": "التقارير" },
+        { "en": "Clients", "ar": "العملاء" }
+      ]
+    }
+  ],
+  "page": {
+    "covers": {
+      "en": { "headline": "Create *Invoices.*\nGet *Paid.*\nStay Organized.", "sub": "Free early access · acme.example", "desktop": "screens/desktop_en/dashboard.png", "phone": "screens/phone_en/dashboard.png" }
+    }
+  }
+}
